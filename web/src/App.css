@@ -1,0 +1,63 @@
+.page {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  font-family: system-ui, sans-serif;
+  text-align: left;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+select,
+textarea {
+  font: inherit;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #c8c8d0;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+button {
+  min-height: 44px; /* big enough to tap on a phone */
+  padding: 0 18px;
+  border-radius: 8px;
+  border: 1px solid #8b2f72;
+  background: #8b2f72;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.hint {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.error {
+  color: #b00020;
+}
+
+pre {
+  background: #f6f6f8;
+  padding: 12px;
+  border-radius: 8px;
+  overflow-x: auto;
+}

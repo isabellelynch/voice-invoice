@@ -1,0 +1,20 @@
+# Java / Maven
+api/target/
+api/data/
+*.class
+
+# Node / Vite
+web/node_modules/
+web/dist/
+
+# IDEs and OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Secrets: never commit these
+.env
+*.env
+secrets.*
